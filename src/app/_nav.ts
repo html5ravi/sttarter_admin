@@ -1,49 +1,57 @@
 export const navItems = [
   {
-    name: 'Dashboard',
-    url: '/dashboard',
-    icon: 'fa fa-th'
-  },
-  {
-    name: 'Users',
-    url: '/users',
-    icon: 'icon-people'
-  },
-  {
-    name: 'Communicator',
-    url: '/communicator',
-    icon: 'icon-speedometer'
-  },
-  {
-    name: 'Referral',
-    url: '/referral',
-    icon: 'icon-speedometer'
-  },
-  {
-    name: 'Wallets',
-    url: '/wallets',
-    icon: 'icon-speedometer'
-  },
-  {
-    name: 'Coupons',
-    url: '/coupons',
-    icon: 'icon-speedometer'
-  },
-  {
-    name: 'Content System',
-    url: '/content-system',
-    icon: 'icon-speedometer'
-  },
-  {
-    name: 'Helpdesk',
-    url: '/helpdesk',
-    icon: 'fa fa-life-ring'
-  },
-  {
-    name: 'Reviews',
-    url: '/reviews',
-    icon: 'icon-speedometer'
-  } 
+    name: 'Home',
+    url: '/home',
+    icon: 'icon-home',
+  }, 
+      {
+        name: 'Dashboard',
+        url: '/dashboard',
+        icon: 'fa fa-th'
+      },
+      {
+        name: 'Users',
+        url: '/users',
+        icon: 'icon-people'
+      },
+      {
+        name: 'Communicator',
+        url: '/communicator',
+        icon: 'icon-speedometer'
+      },
+      {
+        name: 'Referral',
+        url: '/referral',
+        icon: 'icon-speedometer'
+      },
+      {
+        name: 'Wallets',
+        url: '/wallets',
+        icon: 'icon-speedometer'
+      },
+      {
+        name: 'Coupons',
+        url: '/coupons',
+        icon: 'icon-speedometer'
+      },
+      {
+        name: 'Content System',
+        url: '/content-system',
+        icon: 'icon-speedometer'
+      },
+      {
+        name: 'Helpdesk',
+        url: '/helpdesk',
+        icon: 'fa fa-life-ring'
+      },
+      {
+        name: 'Reviews',
+        url: '/reviews',
+        icon: 'icon-speedometer'
+      } 
+    
+  
+  
   
   
 ];

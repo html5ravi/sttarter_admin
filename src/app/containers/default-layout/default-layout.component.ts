@@ -12,7 +12,7 @@ export class DefaultLayoutComponent {
   private changes: MutationObserver;
   public element: HTMLElement = document.body;
   public sideBar:boolean ;
-  public copyrightYear:any = new Date().getFullYear();
+  public copyRightYear:any = new Date().getFullYear();
   constructor(translate: TranslateService) {
     translate.setDefaultLang('en');
     translate.use('en');

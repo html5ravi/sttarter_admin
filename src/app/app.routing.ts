@@ -18,11 +18,12 @@ import { CommunicatorComponent } from './pages/communicator/communicator.compone
 import { ReferralComponent } from './pages/referral/referral.component';
 import { HelpdeskComponent } from './pages/helpdesk/helpdesk.component';
 import { ReviewsComponent } from './pages/reviews/reviews.component';
+import { HomeComponent } from './pages/home/home.component';
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'home',
     pathMatch: 'full',
   },
   {
@@ -60,6 +61,12 @@ export const routes: Routes = [
     },
     children: [
       {
+        path:'home',
+        component:HomeComponent,
+        data: {
+          title: 'Organisers'
+        },
+      },{
         path:'users',
         component:UsersComponent,
         data: {

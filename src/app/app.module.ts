@@ -53,6 +53,8 @@ import { CommunicatorComponent } from './pages/communicator/communicator.compone
 import { ReferralComponent } from './pages/referral/referral.component';
 import { HelpdeskComponent } from './pages/helpdesk/helpdesk.component';
 import { ReviewsComponent } from './pages/reviews/reviews.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 
@@ -92,7 +94,9 @@ import { ReviewsComponent } from './pages/reviews/reviews.component';
     CommunicatorComponent,
     ReferralComponent,
     HelpdeskComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    DashboardComponent,
+    HomeComponent
   ],
   exports: [TranslateModule],
   providers: [{
