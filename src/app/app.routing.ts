@@ -19,6 +19,8 @@ import { ReferralComponent } from './pages/referral/referral.component';
 import { HelpdeskComponent } from './pages/helpdesk/helpdesk.component';
 import { ReviewsComponent } from './pages/reviews/reviews.component';
 import { HomeComponent } from './pages/home/home.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
 
 export const routes: Routes = [
   {
@@ -65,62 +67,68 @@ export const routes: Routes = [
         component:HomeComponent,
         data: {
           title: 'Organisers'
-        },
+        }
+      },{
+        path:'dashboard',
+        component:DashboardComponent,
+        data: {
+          title: 'Dashboard'
+        }
       },{
         path:'users',
         component:UsersComponent,
         data: {
           title: 'Users'
-        },
+        }
       },
       {
         path:'communicator',
         component:CommunicatorComponent,
         data: {
           title: 'Communicator'
-        },
+        }
       },
       {
         path:'referral',
         component:ReferralComponent,
         data: {
           title: 'Referral'
-        },
+        }
       },
       {
         path:'wallets',
         component:WalletComponent,
         data: {
           title: 'Wallets'
-        },
+        }
       },
       {
         path:'coupons',
         component:CouponsComponent,
         data: {
           title: 'Coupons'
-        },
+        }
       },
       {
         path:'content-system',
         component:ContentSystemComponent,
         data: {
           title: 'Content System'
-        },
+        }
       },
       {
         path:'helpdesk',
         component:HelpdeskComponent,
         data: {
           title: 'Helpdesk'
-        },
+        }
       },
       {
         path:'reviews',
         component:ReviewsComponent,
         data: {
           title: 'Reviews'
-        },
+        }
       },
       {
         path: 'base',
