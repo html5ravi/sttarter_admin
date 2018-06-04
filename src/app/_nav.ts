@@ -2,12 +2,12 @@ export const navItems = [
   {
     name: 'Dashboard',
     url: '/dashboard',
-    icon: 'icon-speedometer'
+    icon: 'fa fa-th'
   },
   {
     name: 'Users',
     url: '/users',
-    icon: 'icon-speedometer'
+    icon: 'icon-people'
   },
   {
     name: 'Communicator',
@@ -37,7 +37,7 @@ export const navItems = [
   {
     name: 'Helpdesk',
     url: '/helpdesk',
-    icon: 'icon-speedometer'
+    icon: 'fa fa-life-ring'
   },
   {
     name: 'Reviews',
