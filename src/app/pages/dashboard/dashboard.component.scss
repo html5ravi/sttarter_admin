@@ -1,15 +1,16 @@
-.dashboardOut{
-    .card{
-        border:none;
+@import '~scss/variables';
+.dashboardOut {
+    .card {
+        border: none;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-        background-color: #3ebda0;
+        background-color: $aqua;
         background-image: url('/../assets/img/icons/dashboard/user.png');
         background-position: 95% center;
         background-repeat: no-repeat;
     }
-    .card-body{
-        h4{
-            color: #fff;
+    .card-body {
+        h4 {
+            color: $white;
         }
     }
 }
