@@ -1,43 +1,44 @@
 @import '~scss/variables';
 .dashboardOut {
-    a{
+    a {
         text-decoration: none;
     }
     .card {
         border: none;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+        min-height: 150px;
     }
-    .card.users{
+    .card.users {
         background-color: $aqua;
         background-image: url('/../assets/img/icons/dashboard/user.png');
         background-position: 95% 24%;
         background-repeat: no-repeat;
     }
-    .card.wallets{
+    .card.wallets {
         background-color: $brown;
         background-image: url('/../assets/img/icons/dashboard/wallets.png');
         background-position: 95% 24%;
         background-repeat: no-repeat;
     }
-    .card.contentSystems{
+    .card.contentSystems {
         background-color: $blue;
         background-image: url('/../assets/img/icons/dashboard/content.png');
         background-position: 95% 24%;
         background-repeat: no-repeat;
     }
-    .card.communicator{
+    .card.communicator {
         background-color: $green;
         background-image: url('/../assets/img/icons/dashboard/communicator.png');
         background-position: 95% 24%;
         background-repeat: no-repeat;
     }
-    .card.referrals{
+    .card.referrals {
         background-color: $sandal;
         background-image: url('/../assets/img/icons/dashboard/referrals.png');
         background-position: 95% 24%;
         background-repeat: no-repeat;
     }
-    .card.reviews{
+    .card.reviews {
         background-color: $purple;
         background-image: url('/../assets/img/icons/dashboard/reviews.png');
         background-position: 95% 24%;
@@ -58,6 +59,6 @@
         padding: 10px;
         background: rgba(0, 0, 0, 0.3);
         width: 100%;
-        border-radius:0 0 0.25rem 0.25rem;
+        border-radius: 0 0 0.25rem 0.25rem;
     }
 }

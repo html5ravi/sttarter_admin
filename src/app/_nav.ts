@@ -1,53 +1,53 @@
-export const navItems = [
+export const leftNavItems = [
   {
     name: 'Home',
     url: '/home',
-    icon: 'icon-home',
+    icon: 'mdi mdi-home',
   }, 
       {
         name: 'Dashboard',
         url: '/dashboard',
-        icon: 'fa fa-th'
+        icon: 'mdi mdi-view-dashboard'
       },
       {
         name: 'Users',
         url: '/users',
-        icon: 'icon-people'
+        icon: 'mdi mdi-account-multiple'
       },
       {
         name: 'Communicator',
         url: '/communicator',
-        icon: 'icon-speedometer'
+        icon: 'mdi mdi-wechat'
       },
       {
         name: 'Referral',
         url: '/referral',
-        icon: 'icon-speedometer'
+        icon: 'mdi mdi-account-switch'
       },
       {
         name: 'Wallets',
         url: '/wallets',
-        icon: 'icon-speedometer'
+        icon: 'mdi mdi-wallet'
       },
       {
         name: 'Coupons',
         url: '/coupons',
-        icon: 'icon-speedometer'
+        icon: 'mdi mdi-percent'
       },
       {
         name: 'Content System',
         url: '/content-system',
-        icon: 'icon-speedometer'
+        icon: 'mdi mdi-content-paste'
       },
       {
         name: 'Helpdesk',
         url: '/helpdesk',
-        icon: 'fa fa-life-ring'
+        icon: 'mdi mdi-help'
       },
       {
         name: 'Reviews',
         url: '/reviews',
-        icon: 'icon-speedometer'
+        icon: 'mdi mdi-message-draw'
       } 
     
   

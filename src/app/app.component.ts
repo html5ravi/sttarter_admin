@@ -8,18 +8,24 @@ import {TranslateService} from '@ngx-translate/core';
   template: '<router-outlet></router-outlet>'
 })
 export class AppComponent implements OnInit {
+
+  public sideBar:any;
+
   constructor(private router: Router, translate: TranslateService) { 
 
     translate.setDefaultLang('en');
     translate.use('en');
+    
   }
 
   ngOnInit() {
+
     this.router.events.subscribe((evt) => {
       if (!(evt instanceof NavigationEnd)) {
         return;
       }
       window.scrollTo(0, 0)
     });
+
   }
 }

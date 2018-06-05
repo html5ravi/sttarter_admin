@@ -40,6 +40,7 @@
     "@coreui/coreui": "^2.0.1",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
     "@coreui/icons": "^0.1.1",
+    "@mdi/font": "^2.4.85",
     "@ngx-translate/core": "^10.0.2",
     "@ngx-translate/http-loader": "^3.0.1",
     "chart.js": "2.7.2",
