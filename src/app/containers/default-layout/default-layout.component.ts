@@ -1,6 +1,6 @@
 import { Component, Input} from '@angular/core';
 import { leftNavItems } from './../../_nav';
-import { leftNavItems2 } from './../../_nav2';
+
 import {TranslateService} from '@ngx-translate/core';
 import { Router, NavigationEnd } from '@angular/router';
 @Component({
