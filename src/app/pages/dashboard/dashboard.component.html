@@ -1,11 +1,64 @@
 <section class="dashboardOut">
   <div class="row">
-    <div class="col-md-3">
-      <div class="card">
-        <div class="card-body">
-          <h4>users</h4>
+    <div class="col-md-4">
+      <a [routerLink]="['/users']">
+        <div class="card users">
+          <div class="card-body">
+            <h4>users</h4>
+          </div>
+          <div class="moduleDes">View the list of all the APP users and the registration information. </div>
         </div>
-      </div>
-    </div>  
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a [routerLink]="['/wallets']">
+        <div class="card wallets">
+          <div class="card-body">
+            <h4>wallets</h4>
+          </div>
+          <div class="moduleDes">View and manage wallets of users, wallet members and transaction history. </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a [routerLink]="['/content-system']">
+        <div class="card contentSystems">
+          <div class="card-body">
+            <h4>content systems</h4>
+          </div>
+          <div class="moduleDes">Build out your list schemas and manage content. </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a [routerLink]="['/communicator']">
+        <div class="card communicator">
+          <div class="card-body">
+            <h4>communicator</h4>
+          </div>
+          <div class="moduleDes">Create groups, moderate messages, view reports. </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a [routerLink]="['/referral']">
+        <div class="card referrals">
+          <div class="card-body">
+            <h4>referrals</h4>
+          </div>
+          <div class="moduleDes">Set up referral and referral rules. View referral reports. </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a [routerLink]="['/reviews']">
+        <div class="card reviews">
+          <div class="card-body">
+            <h4>reviews</h4>
+          </div>
+          <div class="moduleDes">Set up review schema.View review reports. </div>
+        </div>
+      </a>
+    </div>
   </div>
 </section>
